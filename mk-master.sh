@@ -9,12 +9,10 @@ virtualenv "$ENV"
 cat <<END >mst
 #!/bin/sh
 export LC_CTYPE=C
-command="\$1"
-shift
-"$ENV/bin/buildbot" "\$command" "$ROOT" \$*
+"$ENV/bin/buildbot" \$* "$ROOT"
 END
 
 chmod +x mst
 
 ./mst create-master
-cp master.cfg "$ROOT/master.cfg"
+cp master.tmpl/* "$ROOT"

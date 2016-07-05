@@ -1,0 +1,6 @@
+- login: worker1
+  password: pass1
+- login: worker2
+  password: pass2
+- login: worker3
+  password: pass3
