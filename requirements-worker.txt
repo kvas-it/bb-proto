@@ -1,0 +1,4 @@
+buildbot-worker==0.9.0b9
+future==0.15.2
+Twisted==16.2.0
+zope.interface==4.2.0
