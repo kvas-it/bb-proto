@@ -17,4 +17,4 @@ chmod +x mst
 
 ./mst create-master
 cp master.tmpl/* "$ROOT"
-sed -i '' "s|REPOS-ROOT|`pwd`/repos|g" jobs.yaml
+sed -i '' "s|REPOS-ROOT|`pwd`/repos|g" "$ROOT/jobs.yaml"

@@ -1,9 +1,10 @@
 - name: Git repo
   id: git-repo
-  repo: file://REPOS-ROOT/git-repo
+  repo-url: file://REPOS-ROOT/git-repo
   vcs-type: git
   branch: master
 - name: Hg example
   id: hg-repo
-  repo: file://REPOS-ROOT/hg-repo
+  repo-url: file://REPOS-ROOT/hg-repo
+  vcs-type: hg
   branch: master
