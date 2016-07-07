@@ -13,7 +13,8 @@ cat <<END >"w$ID"
 export LC_CTYPE=C
 command="\$1"
 shift
-"$ENV/bin/buildbot-worker" "\$command" $ROOT \$*
+source "$ENV/bin/activate"
+buildbot-worker "\$command" $ROOT \$*
 END
 
 chmod +x "w$ID"

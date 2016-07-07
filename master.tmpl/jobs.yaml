@@ -1,6 +1,9 @@
-- name: python-abp
-  repo: git://github.com/adblockplus/python-abp
+- name: Git repo
+  id: git-repo
+  repo: file://REPOS-ROOT/git-repo
+  vcs-type: git
   branch: master
-- name: hello-world
-  repo: git://github.com/kvas-it/hello_world.git
+- name: Hg example
+  id: hg-repo
+  repo: file://REPOS-ROOT/hg-repo
   branch: master
