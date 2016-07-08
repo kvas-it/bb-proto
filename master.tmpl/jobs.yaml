@@ -7,4 +7,4 @@
   id: hg-repo
   repo-url: file://REPOS-ROOT/hg-repo
   vcs-type: hg
-  branch: master
+  branch: default
